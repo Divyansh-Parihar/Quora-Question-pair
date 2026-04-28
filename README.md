@@ -263,7 +263,8 @@ Navigate to `http://localhost:8501` and enter two questions to check for duplica
 | Features Used     | 22 + BoW    |
 | Model Type        | ML Classifier |
 
-> *(Update this section with accuracy, F1-score, and confusion matrix after running evaluation)*
+<img width="901" height="770" alt="image" src="https://github.com/user-attachments/assets/c9285ffd-5e08-48c3-9376-13785379035c" />
+
 
 ---
 
