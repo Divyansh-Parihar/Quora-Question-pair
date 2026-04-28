@@ -4,7 +4,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![NLP](https://img.shields.io/badge/NLP-FuzzyWuzzy%20%7C%20NLTK-green)](https://pypi.org/project/fuzzywuzzy/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 > A machine learning–powered NLP application that detects whether two Quora questions are semantically **duplicate** or **not**. Built with advanced feature engineering, trained on **404,290** question pairs, and deployed as an interactive **Streamlit** web app.
 
@@ -278,18 +278,12 @@ Navigate to `http://localhost:8501` and enter two questions to check for duplica
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙋‍♂️ Author
 
 **Divyansh Parihar**  
-📧 [Your Email]  
-🔗 [Your LinkedIn](https://linkedin.com)  
-🐙 [GitHub](https://github.com/Divyansh-Parihar)
+📧 divyanshparihar6505@gmail.com  
+🔗 https://www.linkedin.com/in/divyansh-parihar-836765334/  
+🐙 https://github.com/Divyansh-Parihar
 
 ---
 
