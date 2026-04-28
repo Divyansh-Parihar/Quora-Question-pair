@@ -177,7 +177,7 @@ streamlit run app.py
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/Quora-Question-Pair.git
+https://github.com/Divyansh-Parihar/Quora-Question-pair.git
 cd Quora-Question-Pair
 
 # 2. Create a virtual environment (recommended)
