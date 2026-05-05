@@ -177,7 +177,7 @@ streamlit run app.py
 
 ```bash
 # 1. Clone the repository
-https://github.com/Divyansh-Parihar/Quora-Question-pair.git
+git clone https://github.com/Divyansh-Parihar/Quora-Question-pair.git
 cd Quora-Question-Pair
 
 # 2. Create a virtual environment (recommended)
@@ -255,16 +255,39 @@ Navigate to `http://localhost:8501` and enter two questions to check for duplica
 
 ## 📈 Results
 
-| Metric            | Value       |
-|-------------------|-------------|
-| Dataset Size      | 404,290 pairs |
-| Unique Questions  | 537,933     |
-| Repeated Questions| 111,780     |
-| Features Used     | 22 + BoW    |
-| Model Type        | ML Classifier |
+### Dataset Statistics
 
 <img width="901" height="770" alt="image" src="https://github.com/user-attachments/assets/c9285ffd-5e08-48c3-9376-13785379035c" />
 
+| Metric             | Value          |
+|--------------------|----------------|
+| Dataset Size       | 404,290 pairs  |
+| Unique Questions   | 537,933        |
+| Repeated Questions | 111,780        |
+| Features Used      | 22 + BoW       |
+| Test Set Size      | 9,000 samples  |
+
+### Model Performance (on 9,000-sample test set)
+
+| Model              | Accuracy  | Weighted F1 |
+|--------------------|-----------|-------------|
+| Random Forest      | **78.87%**| **0.79**    |
+| XGBoost            | **78.80%**| —           |
+
+### Random Forest — Classification Report
+
+| Class             | Precision | Recall | F1-Score | Support |
+|-------------------|-----------|--------|----------|---------|
+| 0 (Not Duplicate) | 0.81      | 0.86   | 0.84     | 5,707   |
+| 1 (Duplicate)     | 0.74      | 0.66   | 0.70     | 3,293   |
+| **Weighted Avg**  | **0.79**  | **0.79**| **0.79**| 9,000   |
+
+### Confusion Matrix (Random Forest)
+
+|                    | Predicted: Not Dup | Predicted: Dup |
+|--------------------|--------------------|----------------|
+| **Actual: Not Dup**| 4,926              | 781            |
+| **Actual: Dup**    | 1,121              | 2,172          |
 
 ---
 
@@ -282,9 +305,9 @@ Navigate to `http://localhost:8501` and enter two questions to check for duplica
 ## 🙋‍♂️ Author
 
 **Divyansh Parihar**  
-📧 divyanshparihar6505@gmail.com  
-🔗 https://www.linkedin.com/in/divyansh-parihar-836765334/  
-🐙 https://github.com/Divyansh-Parihar
+📧 [Email]divyanshparihar6505@gmail.com
+🔗 [LinkedIn]https://www.linkedin.com/in/divyansh-parihar-836765334/  
+🐙 [GitHub]https://github.com/Divyansh-Parihar
 
 ---
 
